@@ -3,6 +3,12 @@ This repository contains Terraform code for deploying Snowpipes in Snowflake. Sn
 
 The Terraform code in this repository uses the Snowflake provider for Terraform to manage the Snowflake infrastructure, and the Azure provider to interact with the Azure Blob Storage service.
 
+Terraform is a tool for managing infrastructure as code. It allows you to define and manage your cloud infrastructure using a simple, declarative language, and provides a way to version control and automate your infrastructure deployments. With Terraform, you can quickly and easily create and update your cloud infrastructure, while maintaining consistency and minimizing errors.
+
+Snowpipes are a feature in Snowflake that enables you to load data from cloud-based storage services into Snowflake without the need for ETL tools or complex data pipelines. With Snowpipes, you can automate the loading of data into Snowflake, reduce the time and effort required to manage data pipelines, and improve the efficiency and reliability of your data processing.
+
+By using Terraform to manage your Snowflake infrastructure, you can take advantage of the benefits of both tools. Terraform provides a way to automate the deployment and management of your Snowflake infrastructure, while Snowpipes provide a way to automate the loading of data into Snowflake. Together, they can help you reduce the time and effort required to manage your data processing pipelines, improve the efficiency and reliability of your data processing, and increase the speed and agility of your business.
+
 ## Getting Started
 To use this Terraform code, you'll need to have the following prerequisites installed:
 - Terraform
